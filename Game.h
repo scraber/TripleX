@@ -1,0 +1,1 @@
+void PlayGameDifficulty(int difficulty);
