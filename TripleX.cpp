@@ -6,9 +6,9 @@
 
 int main() {
   std::uint8_t difficulty = 1;
-  std::uint8_t max_difficulty = 10;
+  std::uint8_t max_difficulty = 3;
   std::uint8_t lives = 3;
-  while (lives or difficulty == max_difficulty) {
+  while (lives && !(difficulty-1 == max_difficulty)) {
     PlayGameDifficulty(difficulty, lives);
   }
 
