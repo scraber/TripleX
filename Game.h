@@ -1,3 +1,3 @@
 #include <cstdint>
 
-void PlayGameDifficulty(std::uint8_t& difficulty, std::uint8_t& lives);
+void PlayGameDifficulty(std::uint8_t& Difficulty, std::uint8_t& Lives);
